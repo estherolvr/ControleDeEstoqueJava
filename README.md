@@ -1,18 +1,15 @@
-# 🗂️ Sistema de Gerenciamento de Tarefas em Java
+# 🛒 Sistema de Gerenciamento de Produtos (GUI)
 
-Este é um sistema simples de gerenciamento de tarefas desenvolvido em **Java**, projetado para ser executado via console. Ele demonstra conceitos fundamentais de **programação orientada a objetos** e **interação com o usuário**.
+Este é um sistema de gerenciamento de produtos com interface gráfica (GUI) desenvolvido em **Java**. Ele permite realizar operações **CRUD** (Criar, Ler, Atualizar, Excluir) em produtos, proporcionando uma experiência de usuário mais interativa e visual em comparação com aplicações baseadas em console.
 
 ---
 
 ## ✅ Funcionalidades
 
-O sistema permite as seguintes operações:
-
-- ➕ **Adicionar Tarefa**: Incluir uma nova tarefa na lista.  
-- 📋 **Listar Tarefas**: Visualizar todas as tarefas cadastradas, indicando se estão concluídas ou não.  
-- ✏️ **Atualizar Descrição da Tarefa**: Modificar a descrição de uma tarefa existente.  
-- ✅ **Marcar Tarefa como Concluída**: Alterar o status de uma tarefa para concluída.  
-- 🗑️ **Excluir Tarefa**: Remover uma tarefa da lista.
+- ➕ **Adicionar Produto**: Incluir novos produtos com nome, preço e quantidade.  
+- 📋 **Listar Produtos**: Exibir todos os produtos em uma tabela com ID, nome, preço e quantidade.  
+- ✏️ **Atualizar Produto**: Alterar os dados de um produto existente, utilizando o ID como referência.  
+- 🗑️ **Excluir Produto**: Remover um produto da lista, também utilizando o ID.
 
 ---
 
@@ -20,11 +17,15 @@ O sistema permite as seguintes operações:
 
 ### 1. Pré-requisitos
 
-- Certifique-se de ter o **Java Development Kit (JDK)** instalado (versão 17 ou superior é recomendada).
+- Java Runtime Environment (JRE) ou Java Development Kit (JDK) instalado (versão **17 ou superior** recomendada).
 
-### 2. Compilar os Arquivos
+### 2. Baixar o Arquivo JAR
 
-Abra o terminal ou prompt de comando na pasta onde os arquivos `Task.java`, `TaskManager.java` e `Main.java` estão localizados e execute:
+Faça o download do arquivo compilado: `product_management_gui.jar`
+
+### 3. Executar o Programa
+
+No terminal ou prompt de comando, acesse a pasta onde o `.jar` está localizado e execute:
 
 ```bash
-javac Task.java TaskManager.java Main.java
+java -jar product_management_gui.jar
