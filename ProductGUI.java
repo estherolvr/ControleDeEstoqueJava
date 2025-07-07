@@ -161,7 +161,7 @@ public class ProductGUI extends JFrame {
             }
         });
 
-        listProducts(); // Carrega a lista de produtos ao iniciar
+        listProducts(); 
         setVisible(true);
     }
 
